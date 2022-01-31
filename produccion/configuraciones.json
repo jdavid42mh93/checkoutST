@@ -1,0 +1,40 @@
+{
+    "configuration": [
+        {
+            "created_at": "2021-12-21 23:10:56.845967 +0000 UTC", 
+            "id": "3a031f27-bb87-42b8-b270-e3c92ab7e31d", 
+            "merchant_id": "2bb258f4-051d-4a46-9321-b0a7a857cd71", 
+            "operation": "NotifyOrder", 
+            "service": "Ema", 
+            "updated_at": "2021-12-21 23:10:56.845982 +0000 UTC", 
+            "url": "https://www.kfc.com.ec/api/v1/orders/notify"
+        }, 
+        {
+            "created_at": "2021-12-21 23:15:13.463922 +0000 UTC", 
+            "id": "09a050d6-7a9b-4d21-8730-41796027c471", 
+            "merchant_id": "2bb258f4-051d-4a46-9321-b0a7a857cd71", 
+            "operation": "ShippingRate", 
+            "service": "Ema", 
+            "updated_at": "2021-12-21 23:15:13.463937 +0000 UTC", 
+            "url": "https://www.kfc.com.ec/api/v1/orders/{order_token}/shipping"
+        }, 
+        {
+            "created_at": "2021-12-21 23:16:20.2975 +0000 UTC", 
+            "id": "b1bfbecd-8626-4ab4-a7f2-b2bc2418347c", 
+            "merchant_id": "2bb258f4-051d-4a46-9321-b0a7a857cd71", 
+            "operation": "ApplyCoupon", 
+            "service": "Ema", 
+            "updated_at": "2021-12-21 23:16:20.297512 +0000 UTC", 
+            "url": "{url}/api/v1/orders/{order_token}/coupons"
+        }, 
+        {
+            "created_at": "2021-12-21 23:26:18.030443 +0000 UTC", 
+            "id": "f7cc1def-4d87-48d1-b360-7d48601ed5b3", 
+            "merchant_id": "2bb258f4-051d-4a46-9321-b0a7a857cd71", 
+            "operation": "RemoveCoupon", 
+            "service": "Ema", 
+            "updated_at": "2021-12-21 23:26:18.030461 +0000 UTC", 
+            "url": "https://www.kfc.com.ec/api/v1/orders/{order_token}/coupons/{coupon_code}"
+        }
+    ]
+}
