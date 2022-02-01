@@ -35,7 +35,7 @@ Archivo assign_shipping_options.py
     - python assign_shipping_options.py
     - pasar el merchant_id como parametro
     - retornara en consola:
-        - url de configuracion: ttps://payment.getduna.com:443/api/v1/merchants/1688ac91-068b-443b-b82a-0d67086f5c0b/stores/Chico/processors/assign-available-for?method_type=cash
+        - url de configuracion: https://payment.getduna.com:443/api/v1/merchants/1688ac91-068b-443b-b82a-0d67086f5c0b/stores/Chico/processors/assign-available-for?method_type=cash
         - status_code debe ser 200
 
 Verificar los metodos de pago asociados a metodos de envio 
